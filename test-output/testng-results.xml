@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="14" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T16:29:48 IST" name="Suite" finished-at="2024-02-15T16:33:35 IST" duration-ms="226803">
+    <groups>
+      <group name="regression">
+        <method signature="TC_002_UpcomingBike.verifyNewBike()[pri:1, instance:testCases.TC_002_UpcomingBike@359f7cdf]" name="verifyNewBike" class="testCases.TC_002_UpcomingBike"/>
+        <method signature="TC_002_UpcomingBike.verifyUpcomingBike(java.lang.String)[pri:2, instance:testCases.TC_002_UpcomingBike@359f7cdf]" name="verifyUpcomingBike" class="testCases.TC_002_UpcomingBike"/>
+        <method signature="TC_003_UsedCar.verifyUsedBike()[pri:0, instance:testCases.TC_003_UsedCar@1fa268de]" name="verifyUsedBike" class="testCases.TC_003_UsedCar"/>
+        <method signature="TC_005_LoginPage.verifyLoginPage()[pri:2, instance:testCases.TC_005_LoginPage@4466af20]" name="verifyLoginPage" class="testCases.TC_005_LoginPage"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC_002_UpcomingBike.verifyNewBike()[pri:1, instance:testCases.TC_002_UpcomingBike@359f7cdf]" name="verifyNewBike" class="testCases.TC_002_UpcomingBike"/>
+        <method signature="TC_004_LoginSignup.verifyLoginSignPage()[pri:1, instance:testCases.TC_004_LoginSignup@4f6ee6e4]" name="verifyLoginSignPage" class="testCases.TC_004_LoginSignup"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TC_001_HomePage.verifyTitle()[pri:0, instance:testCases.TC_001_HomePage@3bb9a3ff]" name="verifyTitle" class="testCases.TC_001_HomePage"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_002_UpcomingBike.verifyNewBike()[pri:1, instance:testCases.TC_002_UpcomingBike@359f7cdf]" name="verifyNewBike" class="testCases.TC_002_UpcomingBike"/>
+        <method signature="TC_002_UpcomingBike.verifyUpcomingBike(java.lang.String)[pri:2, instance:testCases.TC_002_UpcomingBike@359f7cdf]" name="verifyUpcomingBike" class="testCases.TC_002_UpcomingBike"/>
+        <method signature="TC_003_UsedCar.verifyUsedBike()[pri:0, instance:testCases.TC_003_UsedCar@1fa268de]" name="verifyUsedBike" class="testCases.TC_003_UsedCar"/>
+        <method signature="TC_004_LoginSignup.verifyLoginSignPage()[pri:1, instance:testCases.TC_004_LoginSignup@4f6ee6e4]" name="verifyLoginSignPage" class="testCases.TC_004_LoginSignup"/>
+        <method signature="TC_005_LoginPage.verifyLoginPage()[pri:2, instance:testCases.TC_005_LoginPage@4466af20]" name="verifyLoginPage" class="testCases.TC_005_LoginPage"/>
+        <method signature="TC_001_HomePage.verifyTitle()[pri:0, instance:testCases.TC_001_HomePage@3bb9a3ff]" name="verifyTitle" class="testCases.TC_001_HomePage"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-15T16:29:48 IST" name="TestChrome" finished-at="2024-02-15T16:33:35 IST" duration-ms="226803">
+      <class name="testCases.TC_005_LoginPage">
+        <test-method signature="verifyLoginPage()[pri:2, instance:testCases.TC_005_LoginPage@4466af20]" started-at="2024-02-15T16:33:24 IST" name="verifyLoginPage" finished-at="2024-02-15T16:33:34 IST" duration-ms="9882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+      </class> <!-- testCases.TC_005_LoginPage -->
+      <class name="testCases.TC_004_LoginSignup">
+        <test-method signature="verifyLoginSignPage()[pri:1, instance:testCases.TC_004_LoginSignup@4f6ee6e4]" started-at="2024-02-15T16:33:19 IST" name="verifyLoginSignPage" finished-at="2024-02-15T16:33:24 IST" duration-ms="5093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSignPage -->
+      </class> <!-- testCases.TC_004_LoginSignup -->
+      <class name="testCases.TC_002_UpcomingBike">
+        <test-method signature="verifyNewBike()[pri:1, instance:testCases.TC_002_UpcomingBike@359f7cdf]" started-at="2024-02-15T16:31:07 IST" name="verifyNewBike" finished-at="2024-02-15T16:31:45 IST" duration-ms="37843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewBike -->
+        <test-method signature="verifyUpcomingBike(java.lang.String)[pri:2, instance:testCases.TC_002_UpcomingBike@359f7cdf]" started-at="2024-02-15T16:31:47 IST" name="verifyUpcomingBike" data-provider="Manufacturer" finished-at="2024-02-15T16:32:32 IST" depends-on-methods="testCases.TC_002_UpcomingBike.verifyNewBike" duration-ms="45411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpcomingBike -->
+      </class> <!-- testCases.TC_002_UpcomingBike -->
+      <class name="testCases.TC_001_HomePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_HomePage@3bb9a3ff]" started-at="2024-02-15T16:29:49 IST" name="setup" finished-at="2024-02-15T16:31:06 IST" duration-ms="77272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:testCases.TC_001_HomePage@3bb9a3ff]" started-at="2024-02-15T16:31:06 IST" name="verifyTitle" finished-at="2024-02-15T16:31:07 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_HomePage@3bb9a3ff]" started-at="2024-02-15T16:33:34 IST" name="tearDown" finished-at="2024-02-15T16:33:35 IST" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_HomePage -->
+      <class name="testCases.TC_003_UsedCar">
+        <test-method signature="verifyUsedBike()[pri:0, instance:testCases.TC_003_UsedCar@1fa268de]" started-at="2024-02-15T16:32:32 IST" name="verifyUsedBike" finished-at="2024-02-15T16:33:19 IST" duration-ms="46053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsedBike -->
+      </class> <!-- testCases.TC_003_UsedCar -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

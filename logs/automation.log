@@ -1,0 +1,34 @@
+17:21:52.313 [main] INFO  testCases.TC_001_HomePage - **** Starting TC_001_HomePage ****
+17:21:52.331 [main] INFO  testCases.TC_001_HomePage - Getting the title of zigwheels
+17:21:52.432 [main] INFO  testCases.TC_001_HomePage - Validating the title of zigwheels
+17:21:53.019 [main] INFO  testCases.TC_001_HomePage - **** Finished TC_001_HomePage ****
+17:21:53.086 [main] INFO  testCases.TC_002_UpcomingBike - **** Starting TC_002_UpcomingBike ****
+17:21:53.086 [main] INFO  testCases.TC_002_UpcomingBike - Verifing New Bike
+17:22:10.538 [main] INFO  testCases.TC_002_UpcomingBike - Verifing Upcoming Bike
+17:22:33.506 [main] INFO  testCases.TC_002_UpcomingBike - **** Finished TC_002_UpcomingBike ****
+17:22:33.513 [main] INFO  testCases.TC_003_UsedCar - **** Starting TC_003_UsedCar ****
+17:22:33.513 [main] INFO  testCases.TC_003_UsedCar - Verifying usedCar bike
+17:22:53.342 [main] INFO  testCases.TC_003_UsedCar - **** Finished TC_003_UsedCar ****
+17:22:53.351 [main] INFO  testCases.TC_004_LoginSignup - **** Starting TC_004_LoginSignup ****
+17:22:53.351 [main] INFO  testCases.TC_004_LoginSignup - Verifying login/SignUp
+17:23:00.596 [main] INFO  testCases.TC_004_LoginSignup - **** Finished TC_004_LoginSignup ****
+17:23:00.604 [main] INFO  testCases.TC_005_LoginPage - **** Starting TC_005_LoginPage ****
+17:23:00.604 [main] INFO  testCases.TC_005_LoginPage - Verifying loginPage
+17:23:11.681 [main] INFO  testCases.TC_005_LoginPage - **** Finished TC_005_LoginPage ****
+16:31:06.865 [main] INFO  testCases.TC_001_HomePage - **** Starting TC_001_HomePage ****
+16:31:06.889 [main] INFO  testCases.TC_001_HomePage - Getting the title of zigwheels
+16:31:06.968 [main] INFO  testCases.TC_001_HomePage - Validating the title of zigwheels
+16:31:07.595 [main] INFO  testCases.TC_001_HomePage - **** Finished TC_001_HomePage ****
+16:31:07.707 [main] INFO  testCases.TC_002_UpcomingBike - **** Starting TC_002_UpcomingBike ****
+16:31:07.707 [main] INFO  testCases.TC_002_UpcomingBike - Verifing New Bike
+16:31:47.553 [main] INFO  testCases.TC_002_UpcomingBike - Verifing Upcoming Bike
+16:32:32.962 [main] INFO  testCases.TC_002_UpcomingBike - **** Finished TC_002_UpcomingBike ****
+16:32:32.967 [main] INFO  testCases.TC_003_UsedCar - **** Starting TC_003_UsedCar ****
+16:32:32.967 [main] INFO  testCases.TC_003_UsedCar - Verifying usedCar bike
+16:33:19.017 [main] INFO  testCases.TC_003_UsedCar - **** Finished TC_003_UsedCar ****
+16:33:19.024 [main] INFO  testCases.TC_004_LoginSignup - **** Starting TC_004_LoginSignup ****
+16:33:19.025 [main] INFO  testCases.TC_004_LoginSignup - Verifying login/SignUp
+16:33:24.116 [main] INFO  testCases.TC_004_LoginSignup - **** Finished TC_004_LoginSignup ****
+16:33:24.129 [main] INFO  testCases.TC_005_LoginPage - **** Starting TC_005_LoginPage ****
+16:33:24.129 [main] INFO  testCases.TC_005_LoginPage - Verifying loginPage
+16:33:34.007 [main] INFO  testCases.TC_005_LoginPage - **** Finished TC_005_LoginPage ****
